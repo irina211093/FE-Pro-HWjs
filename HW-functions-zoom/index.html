@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Home Work</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+
+    <div class="container-1">
+   <div class="form">
+    <h1>Выбор курсов</h1>
+       <label>Выберите модуль:</label><br>
+       <select id="moduleSelect" onchange="populateCourses()">
+           <option value="">-- Выберите модуль --</option>
+           <option value="frontend">Frontend</option>
+           <option value="backend">Backend</option>
+           <option value="design">Design</option>
+       </select>
+
+       <div id="courseOptions" style="display: none;">
+           <label>Выберите курсы:</label><br>
+           <div id="coursesContainer"></div>
+       </div>
+
+       <label for="quantity">Количество курсов:</label><br>
+       <input type="number" id="quantity" min="1" value="1"><br><br>
+
+       <button onclick="calculateTotal()">Рассчитать стоимость</button>
+       <p id="result"></p>
+   </div>
+</div>
+
+
+    <div class="zoomable">
+        <img id = "zoomImage" src="./image/cat.jpg" alt="Zoomable Image" onclick="zoom()">
+   </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
