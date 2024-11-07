@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Проверка значений</h2>
+        <div class="form__item">
+            <input type="number" class="input-1" placeholder="Введите значение 1">
+        </div>
+        <div class="form__item">
+            <input type="number" class="input-2" placeholder="Введите значение 2">
+        </div>
+        <div class="form__item">
+            <input type="number" class="input-3" placeholder="Введите значение 3">
+        </div>
+        <div class="form__item">
+            <button onclick="checkEquality()">Проверить равенство</button>
+            <button onclick="hasZero()">Проверить на ноль</button>
+            <button onclick="sameOne()">Проверить совпадения</button>
+            <button onclick="sortNumbers()">Числа по возрастанию</button>
+        </div>
+        <div class="result"></div>
+    </div>
+
+    <div class="container-1">
+        <h1>Введите баллы ученика</h1>
+        <input type="number" class="score" placeholder="Баллы">
+        <button onclick="displayResult()">Показать результат</button>
+    <!-- </div> -->
+     <div class="result-1"></div> 
+    </div> 
+
+    <h2>Конвертер секунд в дни, часы, минуты и секунды</h2>
+    <input type="number" class ="secondsInput" placeholder="Введите количество секунд">
+    <button onclick="convertSeconds()">Преобразовать</button>
+
+    <div class="result-2"></div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

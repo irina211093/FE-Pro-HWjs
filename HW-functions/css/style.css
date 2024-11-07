@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: hsl(180, 48%, 83%);
+    border-radius: 20px;
+}
+.form__item {
+    margin: 10px 0;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5pc;
+}
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.container-1 {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: hsl(324, 67%, 75%);
+    border-radius: 20px;
+}
+
+.result-1 {
+   text-align: center; 
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: hsl(0, 85%, 43%);
+    
+}
